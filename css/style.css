@@ -1,0 +1,124 @@
+/* ================================= 
+   mobile or base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 100%;
+    margin: 0 auto; 
+    /* border: 2px solid red; */
+}
+
+a {
+    text-decoration:none;
+}
+
+.inputBox {
+    width: 95%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+input {
+    display: table;
+    margin: 15px auto;
+    width: 400px;
+    padding: 10px 15px;
+    border: 2px solid grey;
+    border-radius: 3px;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+    font-size: 15px;
+}
+.col {
+    width: 95%;
+    margin: 0 auto;
+}
+
+ a img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+img {
+    transition: 1s;
+    width: 100%;
+    
+}
+ img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+
+/* ================================= 
+ media queries
+/* ====================================  */
+
+@media (max-width : 768px)
+{
+	
+    .container {
+        width: 98%;
+        margin: 0 auto; 
+    }
+    input {
+        width: 200px;
+    }
+    a img {
+        width: 200px;
+        height: 200px;
+        text-align: center;
+    }
+   
+    .col {
+       
+        text-align: center;
+    }
+
+    
+}
+@media (min-width: 769px) {
+	
+    .container {
+        width: 90%;
+        margin: 0 auto;
+      
+    }
+    .col {
+        text-align: center;
+    }
+}
+@media (min-width: 1025px) {
+    .container
+    {
+		width: 90%;
+        max-width: 1150px;
+     
+    }
+    .col {
+        text-align: center;
+    }
+    /* .inputBox {
+        width: 98%;
+        margin: auto;
+        padding: 5px;
+        border: 2px red solid;
+    } */
+}
+
+
+/* ---- clearfix code  ---- */
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
