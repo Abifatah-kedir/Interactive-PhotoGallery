@@ -11,7 +11,7 @@
 ## Project Features:
 > Used HTML, CSS and the popular programming language JavaScript and JQuery to create an interactive, searchable gallery of photose.
 
-> View life Live Site https://abifatah-kedir.github.io/OOP-Game-App/?#
+> View life Live Site https://abifatah-kedir.github.io/Interactive-PhotoGallery/?#
 
 *Author*
 
