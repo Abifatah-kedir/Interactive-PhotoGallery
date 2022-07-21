@@ -1,7 +1,6 @@
 # Interactive-PhotoGallery
 
 ## Project Description
-### An Interactive photo gallery
 
 ## Tools Used:
 
