@@ -6,7 +6,8 @@
 
 * HTML
 * CSS 
-* JavaScript,JQuery
+* JavaScript,
+* JQuery
 
 ## Project Features:
 > Used HTML, CSS and the popular programming language JavaScript and JQuery to create an interactive, searchable gallery of photose.
